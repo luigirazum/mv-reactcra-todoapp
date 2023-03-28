@@ -36,6 +36,7 @@ const TodoItem = ({ itemProp, setTodos, delTodo }) => {
         >
           Delete
         </button>
+        {/* EOF #css-in-reactjs */}
         <span style={itemProp.completed ? completedStyle : null}>
           {itemProp.title}
         </span>
