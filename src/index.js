@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
-
-import TodoApp from './components/TodoApp';
+import TodoApp from 'components/TodoApp';
+import reportWebVitals from 'reportWebVitals';
 
 const domContainer = document.getElementById('root');
 const root = ReactDOM.createRoot(domContainer);
