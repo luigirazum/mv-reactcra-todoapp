@@ -33,6 +33,7 @@ const InputTodo = ({ addTodoItem }) => {
         <button type="submit">Submit</button>
       </form>
       <span>{message}</span>
+      {/* EOF #raising-handling-events && Add/Delete/Update completed was implemented */}
     </>
   );
 };
