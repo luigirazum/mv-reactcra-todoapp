@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 
 const TodoItem = ({ itemProp }) => (
   <li>
-    {/* INI #raising-handling-events */}
     <input type="checkbox" />
     {itemProp.title}
   </li>
