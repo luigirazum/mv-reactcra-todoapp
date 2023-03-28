@@ -23,17 +23,17 @@ const InputTodo = ({ addTodoItem }) => {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="form-container">
         <input
           type="text"
           placeholder="Add Todo..."
           value={title}
           onChange={handleChange}
+          className="input-text"
         />
-        <button type="submit">Submit</button>
+        <button type="submit" className="input-submit">Submit</button>
       </form>
-      <span>{message}</span>
-      {/* EOF #raising-handling-events && Add/Delete/Update completed was implemented */}
+      <span className="submit-warning">{message}</span>
     </>
   );
 };
