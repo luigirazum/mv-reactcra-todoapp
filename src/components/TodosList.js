@@ -5,6 +5,7 @@ const TodosList = ({ todosProps }) => (
   <ul>
     {todosProps.map((todo) => (
       <TodoItem key={todo.id} itemProp={todo} />
+      // EOF #react-components-data-model from React Tutorial
     ))}
   </ul>
 );
