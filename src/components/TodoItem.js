@@ -2,6 +2,13 @@ import PropTypes from 'prop-types';
 import styles from 'styles/TodoItem.module.css';
 
 const TodoItem = ({ itemProp, setTodos, delTodo }) => {
+  const completedStyle = {
+    fontStyle: 'italic',
+    color: '#595959',
+    opacity: 0.4,
+    textDecoration: 'line-through',
+  };
+
   const handleChange = (id) => {
     setTodos((prevState) => prevState
       .map((todo) => {
@@ -29,7 +36,9 @@ const TodoItem = ({ itemProp, setTodos, delTodo }) => {
         >
           Delete
         </button>
-        {itemProp.title}
+        <span style={itemProp.completed ? completedStyle : null}>
+          {itemProp.title}
+        </span>
       </div>
     </li>
   );
