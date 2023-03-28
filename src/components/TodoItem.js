@@ -34,7 +34,7 @@ const TodoItem = ({ itemProp, setTodos, delTodo }) => {
 
 TodoItem.propTypes = {
   itemProp: PropTypes.shape({
-    id: PropTypes.number.isRequired,
+    id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     completed: PropTypes.bool.isRequired,
   }).isRequired,
