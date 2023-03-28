@@ -41,8 +41,8 @@ It was created following the [React Tutorial: A Comprehensive Guide for Beginner
 ### Preview of React ToDo App.
 
 <p>
-  <sup>Next is a preview of how the finished app would look like.</sup><br>
-  <img src="src/assets/wireframes/react-todoapp-preview.gif" alt="React ToDo App" width="600" height="auto" /><br>
+  <sup>Next is a preview of how the React ToDo App works.</sup><br>
+  <img src="src/assets/images/react-todoapp-working.gif" alt="React ToDo App" width="600" height="auto" /><br>
 </p>
 
 </div>
