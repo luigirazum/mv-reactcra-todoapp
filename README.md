@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="src/assets/logo/todo-list-logo.png" alt="logo" width="100" height="auto" />
+  <img src="src/assets/logo/todoapp-logo.svg" alt="logo" width="100" height="auto" />
   <br/>
 
 ### React ToDo App
