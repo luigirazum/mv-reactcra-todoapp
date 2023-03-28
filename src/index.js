@@ -5,7 +5,11 @@ import reportWebVitals from 'reportWebVitals';
 
 const domContainer = document.getElementById('root');
 const root = ReactDOM.createRoot(domContainer);
-root.render(<TodoApp />);
+root.render(
+  <React.StrictMode>
+    <TodoApp />
+  </React.StrictMode>,
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
