@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import TodoApp from 'components/TodoApp';
+import reportWebVitals from 'reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import 'styles/app.css';
+
+const domContainer = document.getElementById('root');
+const root = ReactDOM.createRoot(domContainer);
 root.render(
   <React.StrictMode>
-    <App />
+    <TodoApp />
   </React.StrictMode>,
 );
 
